@@ -1,0 +1,96 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  height: 50px;
+  overflow: hidden; /* Hide overflow */
+}
+td p{
+  height: 40px;
+  /* overflow: auto; */
+}
+td a{
+  height: 40px;
+  width: 80%;
+}
+td img{
+  height: 50px;
+  width: 50px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #ccc;
+}
+
+/* App.css */
+
+.filters {
+  margin-bottom: 20px;
+  border: none;
+}
+
+.filters input[type="text"],
+.filters select {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the search input */
+.filters input[type="text"] {
+  width: 200px; /* Adjust width as needed */
+}
+
+/* Style for the select elements */
+.filters select {
+  width: 150px; /* Adjust width as needed */
+}
+
+/* Style for the search button */
+.filters button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #0056b3;
+}
